@@ -1,0 +1,20 @@
+{
+  "name": "naga-models-parser",
+  "version": "1.0.0",
+  "description": "Parser for NagaAI models with pricing data",
+  "main": "parser.js",
+  "type": "module",
+  "scripts": {
+    "start": "node parser.js"
+  },
+  "keywords": ["parser", "scraper", "naga", "ai-models"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12",
+    "xlsx": "^0.18.5",
+    "puppeteer": "^21.6.1"
+  }
+}
+
